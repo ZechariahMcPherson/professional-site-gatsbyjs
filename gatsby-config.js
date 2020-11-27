@@ -8,11 +8,11 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
-      resolve: "gatsby-plugin-chakra-ui",
+      resolve: "@chakra-ui/gatsby-plugin",
       options: {
         isResettingCSS: true,
-        isUsingColorMode: false,
+        isUsingColorMode: true,
       },
-    }
+    },
   ],
-}
+};
