@@ -4,9 +4,9 @@ import { Footer } from "./Footer"
 
 export const Layout: FunctionComponent = ({ children }) => (
   <>
-    <Header />
-    <main>{children}</main>
-    <Footer />
+      <Header />
+      <main>{children}</main>
+      <Footer />
   </>
 );
 
