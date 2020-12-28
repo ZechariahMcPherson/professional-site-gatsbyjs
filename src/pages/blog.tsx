@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from "react";
 import { Layout } from "../components/Layout";
 
-const Blog = () => {
+const Blog = (props) => {
   return (
-    <Layout>
+    <Layout location={props.location}>
       I am blog page
     </Layout>);
 };

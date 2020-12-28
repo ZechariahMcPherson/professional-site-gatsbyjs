@@ -1,11 +1,9 @@
 import React from "react";
 import { Layout } from "../components/Layout";
 
-const Contact = () => {
+const Contact = (props) => {
   return (
-    <Layout>
-      I am contact page
-    </Layout>
+    <Layout location={props.location}>I am contact page</Layout>
   );
 };
 

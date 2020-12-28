@@ -4,11 +4,7 @@ import React, { FunctionComponent } from "react";
 import { Layout } from "../components/Layout";
 
 
-const About = () => {
-  return (
-    <Layout>
-      I am about page
-    </Layout>
-  )
+const About = (props) => {
+  return <Layout location={props.location}>I am about page</Layout>;
 }
 export default About

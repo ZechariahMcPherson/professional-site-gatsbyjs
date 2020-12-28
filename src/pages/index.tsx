@@ -5,12 +5,12 @@ const Home: FunctionComponent = () => {
   return <>Hello world!</>;
 };
 
-const IndexPage: FunctionComponent = () => {
+const IndexPage: FunctionComponent = (props) => {
   return (
-    <Layout>
+    <Layout location={props.location}>
       <Home />
     </Layout>
-  )
+  );
 }
 
 export default IndexPage;
